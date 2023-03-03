@@ -1,35 +1,35 @@
-const colors = [`blue`, `red`, `tomato`, `yellow`, `purple`, `green`, `teal`];
-const max = colors.length - 1;
-const min = 0;
+// const colors = [`blue`, `red`, `tomato`, `yellow`, `purple`, `green`, `teal`];
+// const max = colors.length - 1;
+// const min = 0;
 
-const index = Math.round(Math.random() * (max - min) + min);
+// const index = Math.round(Math.random() * (max - min) + min);
 
-const color = colors[index];
+// const color = colors[index];
 
-console.log(color);
+// console.log(color);
 
-document.body.style.backgroundColor = color;
+// document.body.style.backgroundColor = color;
 
-const colorsTitle = [
-  `#800000`,
-  `#FDD9B5`,
-  `#B5B8B1`,
-  `#464451`,
-  `#2F4F4F`,
-  `#7FFFD4`,
-  `#FBCEB1`,
-];
+// const colorsTitle = [
+//   `#800000`,
+//   `#FDD9B5`,
+//   `#B5B8B1`,
+//   `#464451`,
+//   `#2F4F4F`,
+//   `#7FFFD4`,
+//   `#FBCEB1`,
+// ];
 
-const maxTitle = colorsTitle.length - 1;
-const minTitle = 0;
+// const maxTitle = colorsTitle.length - 1;
+// const minTitle = 0;
 
-const indexTitle = Math.round(Math.random() * (maxTitle - minTitle) + minTitle);
+// const indexTitle = Math.round(Math.random() * (maxTitle - minTitle) + minTitle);
 
-const colorTitle = colorsTitle[indexTitle];
+// const colorTitle = colorsTitle[indexTitle];
 
-console.log(colorTitle);
+// console.log(colorTitle);
 
-document.body.style.color = colorTitle;
+// document.body.style.color = colorTitle;
 
 // const salary = prompt("Кто ты по жизни?");
 // if (salary < 501) {
@@ -232,16 +232,3 @@ document.body.style.color = colorTitle;
 // }
 // console.log(processCall("Mango", takeCall, activateAnsweringMachine));
 // console.log(processCall("Poly", takeCall, leaveHoloMessage));
-
-let counter = 0;
-
-function comparison() {
-  counter += 1;
-}
-
-comparison();
-comparison();
-comparison();
-comparison();
-
-console.log(counter);
