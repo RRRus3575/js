@@ -1,0 +1,26 @@
+.nav-link {
+  font-size: 50px;
+  color: #2196f3;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+  font-size: 100px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.link {
+  color: blueviolet;
+}
+li {
+  color: aqua;
+}
+li:hover {
+  color: blueviolet;
+}
+a:active {
+  color: green;
+}
